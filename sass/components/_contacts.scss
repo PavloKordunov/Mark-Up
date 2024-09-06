@@ -1,0 +1,28 @@
+.contacts-conteiner{
+    width: 900px;
+    height: 150px;
+    background-color: #000000;
+    margin: 0;
+}
+
+.contacts-list{
+    display: flex;
+    gap: 75px;
+    justify-content: center;
+    margin:  0 auto;
+    align-items: center;
+}
+
+.contact-type{
+    margin-top: 38px;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--primary-white-color);
+}
+
+.contact-info{
+    margin-top: 5px;
+    font-size: 24px;
+    font-weight: 100;
+    color: var(--primary-white-color);
+}

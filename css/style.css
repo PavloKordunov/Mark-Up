@@ -1,10 +1,10 @@
-:root{
+/* :root{
  --primery-text-color: #000000;
  --second-text-color: #757575;
  --primary-white-color: #fff;
-}
+} */
 
-.html {
+/* .html {
     scroll-behavior: smooth;
 }
 
@@ -15,9 +15,9 @@ body {
     font-size: 16px;
     font-weight: 400;
 
-}
+} */
 
-h1, h2, h3, h4, p, ul {
+/* h1, h2, h3, h4, p, ul {
     padding: 0;
     margin: 0;
 }
@@ -48,11 +48,11 @@ img {
     font-weight: 800;
     text-transform: uppercase;
     margin-top: 75px;
-}
+} */
 
 /*----- Header-part -----*/
 
-.header-conteiner{
+/* .header-conteiner{
     display: flex;
 
     gap: 250px;
@@ -116,11 +116,11 @@ text-transform: uppercase;
     position: absolute;
     z-index: 1;
     margin-left: 545px;
-}
+} */
 
 /* ----- Contacts ----- */
 
-.contacts-conteiner{
+/* .contacts-conteiner{
     width: 900px;
     height: 150px;
     background-color: #000000;
@@ -147,11 +147,11 @@ text-transform: uppercase;
     font-size: 24px;
     font-weight: 100;
     color: var(--primary-white-color);
-}
+} */
 
 /* ----- Profile ----- */
 
-.profile-conteiner{
+/* .profile-conteiner{
     max-width: 900px;
 }
 
@@ -159,11 +159,11 @@ text-transform: uppercase;
     margin-top: 30px;
     width: 700px;
     font-size: 24px;
-}
+} */
 
 /* ----- Expirience ----- */
 
-.expirience-title{
+/* .expirience-title{
     margin-bottom: 30px;
 }
 
@@ -181,11 +181,11 @@ text-transform: uppercase;
 
 .expirience-list-text-bold{
     font-weight: 500;
-}
+} */
 
 /* ----- Reference----- */
 
-.reference-conteiner{
+/* .reference-conteiner{
     max-width: 900px;
 }
 
@@ -217,22 +217,22 @@ text-transform: uppercase;
     position: absolute;
     z-index: 1;
     margin-left: 320px;
-}
+} */
 
 /* ----- Right-side----- */
 
-.right-side{
+/* .right-side{
 background-color: #ebebeb;
 width: 460px;
 }
 
 main{
     display: flex;
-}
+} */
 
 /* ----- Education ----- */
 
-.education-list-text-color{
+/* .education-list-text-color{
     margin-top: 30px;
     font-size: 24px;
     color: var(--second-text-color);
@@ -247,11 +247,11 @@ main{
 .education-list-text{
     margin-top: 15px;
     font-size: 24px;
-}
+} */
 
 /* ----- language ----- */
 
-.language-title{
+/* .language-title{
     margin-bottom: 50px;
 }
 
@@ -271,11 +271,11 @@ main{
     margin-top: 30px;
     font-size: 24px;
     font-weight: 600;
-}
+} */
 
 /* ----- Skills ----- */
 
-.skill-title{
+/* .skill-title{
     margin-bottom: 50px;
 }
 
@@ -295,4 +295,4 @@ main{
     margin-top: 30px;
     font-size: 24px;
     font-weight: 600;
-}
+} */

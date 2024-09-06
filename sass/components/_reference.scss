@@ -1,0 +1,33 @@
+.reference-conteiner{
+    max-width: 900px;
+}
+
+.list-conteiner{
+    margin-top: 15px;
+    display: flex;
+    gap: 100px;
+    position: relative;
+}
+
+.reference-list-text{
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+.reference-list-text-bold{
+    font-weight: 500;
+}
+
+.reference-list-text-color{
+    color: var(--second-text-color);
+}
+
+.reference-list-line{
+    display: block;
+    background-color: var(--second-text-color);
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    margin-left: 320px;
+}
