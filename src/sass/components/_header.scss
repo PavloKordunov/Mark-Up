@@ -1,7 +1,8 @@
 .header-conteiner{
     display: flex;
-    gap: 250px;
+    gap: 290px;
     position: relative;
+
 }
 
 .header-left-side{
@@ -11,7 +12,7 @@
 
 .header-person-name{
 padding-top: 100px;
-font-size: 96px;
+font-size: 108px;
 text-transform: uppercase;
 }
 
@@ -24,7 +25,7 @@ text-transform: uppercase;
     background-color: rgba(0, 0, 0, 0.1);
     height: 5px;
     width: 100%;
-    margin-top: 335px;
+    margin-top: 345px;
     position: absolute;
     z-index: 1;
 }
@@ -37,19 +38,21 @@ text-transform: uppercase;
 .header-right-side{
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 60px;
     position: relative;
 }
 
 .header-img{
     z-index: 10;
+    width: 500px;
+    height: 500px;
 }
 
 .header-box{
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     background-color: #000000;
-    margin-top: 305px;
+    margin-top: 310px;
     z-index: 10;
 }
 
@@ -60,5 +63,5 @@ text-transform: uppercase;
     height: 100%;
     position: absolute;
     z-index: 1;
-    margin-left: 545px;
+    margin-left: 595px;
 }

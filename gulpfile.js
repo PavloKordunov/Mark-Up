@@ -53,14 +53,14 @@ gulp.task('watch', function(){
     gulp.watch('./src/img/**/*', gulp.parallel('img'));
 })
 
-gulp.task('default', gulp.series(
-    'clean',
-    gulp.parallel('html', 'sass', 'img'),
-    gulp.parallel('start', 'watch'),
-))
-
 gulp.task('js', function(){
     return gulp.src('./src/js/*.js')
         .pipe(webpack(require('./webpack.config.js')))
         .pipe(gulp.dest('./dist/js'))
 })
+
+gulp.task('default', gulp.series(
+    'clean',
+    gulp.parallel('html', 'sass', 'img'),
+    gulp.parallel('start', 'watch'),
+))
