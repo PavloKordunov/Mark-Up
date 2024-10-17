@@ -49,6 +49,7 @@ gulp.task('clean', function(done){
 
 gulp.task('watch', function(){
     gulp.watch('./src/sass/**/*.scss', gulp.parallel('sass'));
+    gulp.watch('./src/js/*.js', gulp.parallel('js'));
     gulp.watch('./src/**/*.html', gulp.parallel('html'));
     gulp.watch('./src/img/**/*', gulp.parallel('img'));
 })
@@ -61,6 +62,6 @@ gulp.task('js', function(){
 
 gulp.task('default', gulp.series(
     'clean',
-    gulp.parallel('html', 'sass', 'img'),
+    gulp.parallel('html', 'sass', 'img', 'js'),
     gulp.parallel('start', 'watch'),
 ))
