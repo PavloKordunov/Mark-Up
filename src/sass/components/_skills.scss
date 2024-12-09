@@ -1,21 +1,22 @@
-.skill-title{
-    margin-bottom: 50px;
-}
 
-.skill-item{
-    display: flex;
-    align-items: baseline;
-    gap: 20px;
-}
 
-.skill-box{
-    width: 10px;
-    height: 10px;
-    background-color: #000000;
-}
-
-.skill-list-text{
-    margin-top: 30px;
-    font-size: 24px;
-    font-weight: 600;
+.skill{
+    &-title{
+        margin-bottom: 50px;
+    }
+    &-item{
+        display: flex;
+        align-items: baseline;
+        gap: 20px;
+    }
+    &-box{
+        width: 10px;
+        height: 10px;
+        background-color: #000000;
+    }
+    &-list-text{
+        margin-top: 30px;
+        font-size: 24px;
+        font-weight: 600;
+    }
 }
