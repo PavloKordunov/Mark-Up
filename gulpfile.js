@@ -60,8 +60,13 @@ gulp.task('js', function(){
         .pipe(gulp.dest('./dist/js'))
 })
 
+gulp.task('data', function(){
+    return gulp.src('./src/data/**/*.json')
+        .pipe(gulp.dest('./dist/data'))
+})
+
 gulp.task('default', gulp.series(
     'clean',
-    gulp.parallel('html', 'sass', 'img', 'js'),
+    gulp.parallel('html', 'sass', 'img', 'js', 'data'),
     gulp.parallel('start', 'watch'),
 ))

@@ -1,0 +1,30 @@
+{
+  "profileText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam sed ipsum ut perferendis facilis nam cupiditate est dolore quos, corrupti quis quidem delectus pariatur beatae ab eos expedita tenetur vitae.",
+   "contacts": [
+     {
+       "type": "Phone",
+       "info": "0123 456 789"
+     },
+     {
+       "type": "Email",
+       "info": "uremail@namehere"
+     },
+     {
+       "type": "Address",
+       "info": "Your Street Address"
+     }
+   ],
+
+  "education": [
+    {
+      "date": "2014-2016",
+      "degree": "Degree / Major Name",
+      "university": "University name here"
+    },
+    {
+      "date": "2010-2014",
+      "degree": "Degree / Major Name",
+      "university": "University name here"
+    }
+  ]
+}

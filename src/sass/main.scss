@@ -1,5 +1,6 @@
 //UTILS styles
 @import './utils/variables';
+@import "./utils/mixins";
 
 // BASE styles
 @import './base/base';
@@ -14,4 +15,4 @@
 @import './components/profile';
 @import './components/reference';
 @import './components/right-side';
-@import './components/skills'
+@import './components/skills';

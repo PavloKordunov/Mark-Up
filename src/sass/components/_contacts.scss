@@ -6,11 +6,8 @@
 }
 
 .contacts-list{
-    display: flex;
-    gap: 75px;
-    justify-content: center;
+    @include flex-container(row, center, center, 75px);
     margin:  0 auto;
-    align-items: center;
 }
 
 .contact-type{
@@ -26,3 +23,4 @@
     font-weight: 100;
     color: var(--primary-white-color);
 }
+
